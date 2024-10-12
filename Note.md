@@ -1,11 +1,11 @@
 # Notes on database
 
 - Wrap in try catch always - problem will arise
-- Database is always in another continent - it takes time - async await
+- Database is always in another continent - it takes time - use async await
 
 # import errors
 
-- Use full filename with extensions when importing
+- Use full filename with extensions when importing if error arise
 
 # Error language
 
