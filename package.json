@@ -1,0 +1,14 @@
+{
+  "name": "backend-prod",
+  "version": "1.0.0",
+  "description": "Production grade backend structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Kadum Komut",
+  "license": "ISC"
+}
