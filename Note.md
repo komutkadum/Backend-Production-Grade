@@ -13,3 +13,9 @@
  ```
     console.log("MongoDB connection error", error);
  ```
+
+# Multer Cloudinary File Upload strategy
+
+- User will upload file through multer on our local server temporarily
+- Next, Take file from local storage temp and upload to cloudinary
+- Why two steps because if any error happens, if it is in our local server, there could be a chance of re-upload of the file to cloundinary - Prouduction grade settings
